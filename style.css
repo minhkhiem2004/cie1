@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-hero__heading: SF Pro, sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+/*================= Common =================*/
+.main-content {
+    width: 1440px;
+    max-width: calc(100% - 160px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 12px;
+    min-width: 245px;
+    border-radius: 999px;
+    border: 1px solid #39643D;
+    font-size: 2rem;
+    font-weight: 590;
+    line-height: 2.38rem;
+    letter-spacing: -0.017em;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+/*================= header =================*/
+.header{
+background: linear-gradient(83.61deg, #16403C 0%, #39643D 46%, #507C3D 100%);
+padding: 12px 0;
+}
+
+.header .main-content{
+    position: relative;
+}
+
+.header-content{
+    align-items:center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.media-content{
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.95px 18px;
+    gap: 7px;
+    border-radius: 37.87px;
+    background: #FFFFFF;
+    max-width: 276px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+
+
